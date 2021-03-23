@@ -1,0 +1,12 @@
+<ModMetaData>
+	<name>The Zombie Joris Mod</name>
+	<author>Sarg Bjornson</author>
+	<supportedVersions>
+    
+	  <li>1.2</li>
+   </supportedVersions>
+   
+	<packageId>sarg.zombiejoris</packageId>
+	
+	<description>Rawr</description>
+</ModMetaData>

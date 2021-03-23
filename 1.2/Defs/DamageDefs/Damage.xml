@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<DamageDef ParentName="CutBase">
+		<defName>JE_InfectedClaws</defName>
+		<label>infected claws</label>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraInfecter</workerClass>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	
+
+	
+
+
+
+
+
+
+</Defs>
