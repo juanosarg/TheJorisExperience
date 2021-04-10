@@ -1,5 +1,5 @@
 <ModMetaData>
-	<name>The Zombie Joris Mod</name>
+	<name>The Joris Experience</name>
 	<author>Sarg Bjornson</author>
 	<supportedVersions>
     
@@ -18,7 +18,7 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<packageId>sarg.zombiejoris</packageId>
+	<packageId>sarg.jorisexperience</packageId>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>

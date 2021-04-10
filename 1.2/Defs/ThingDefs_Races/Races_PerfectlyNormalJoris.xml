@@ -3,36 +3,23 @@
 
 
 
-	<!-- ======================= Zombie Joris =============================== -->
+	<!-- ======================= Perfectly Normal Joris =============================== -->
 
-	<ThingDef ParentName="AnimalThingBase" >
-		<defName>JE_ZombieJoris</defName>
-		<label>zombie joris</label>
-		<description>This grizzly bear specimen has been infected by a zombie plague, but it shows a remarkable resistance to it, walking a fine line between life and undeath.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-undead creature, it requires very little sustenance, very very little sleep, and feels almost no pain. It's claw attacks have an increased chance of causing infections. It is incapable of reproduction.</description>
-
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>JE_PerfectlyNormalJoris</defName>
+		<label>perfectly normal joris</label>
+		<description>The Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
 		<statBases>
-			<MoveSpeed>3</MoveSpeed>
-			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
+			<MoveSpeed>4.6</MoveSpeed>
+			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 			<MarketValue>700</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		<comps>
-			
-			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
-				<hediffname>JE_NoPainLowRest</hediffname>
-				<hediffseverity>1</hediffseverity>
-			</li>
-			<li Class="AnimalBehaviours.CompProperties_Infecter">
-				<infectionChance>30</infectionChance>
-				
-			</li>
-			
-		</comps>
 		<tools>
 			<li>
 				<label>left claw</label>
 				<capacities>
-					<li>JE_InfectedClaws</li>
+					<li>Scratch</li>
 				</capacities>
 				<power>17</power>
 				<cooldownTime>2</cooldownTime>
@@ -49,7 +36,7 @@
 			<li>
 				<label>right claw</label>
 				<capacities>
-					<li>JE_InfectedClaws</li>
+					<li>Scratch</li>
 				</capacities>
 				<power>17</power>
 				<cooldownTime>2</cooldownTime>
@@ -93,36 +80,48 @@
 			</li>
 		</tools>
 		<race>
-			<useMeatFrom>Bear_Grizzly</useMeatFrom>
 			<wildBiomes>
-				<TemperateForest>0.02</TemperateForest>				
-				<TropicalRainforest>0.05</TropicalRainforest>
-				<BorealForest>0.02</BorealForest>
-				<Tundra>0.07</Tundra>
 				<ColdBog>0.07</ColdBog>
+				<BorealForest>0.02</BorealForest>
+				<Tundra>0.07</Tundra>				
 				<IceSheet>0.07</IceSheet>
 				<SeaIce>0.07</SeaIce>
+				<TemperateSwamp>0.02</TemperateSwamp>
+				<TemperateForest>0.02</TemperateForest>		
+				<TropicalSwamp>0.02</TropicalSwamp>					
+				<TropicalRainforest>0.05</TropicalRainforest>
+				<AridShrubland>0.005</AridShrubland>
+				<Desert>0.005</Desert>
+				<ExtremeDesert>0.005</ExtremeDesert>				
 			</wildBiomes>
+			<wildness>0.85</wildness>
+			<meatLabel>prime cut joris meat</meatLabel>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>3</maxPreyBodySize>
 			<body>QuadrupedAnimalWithPaws</body>
-			<baseHungerRate>0.01</baseHungerRate>
+			<baseHungerRate>0.35</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
-			<baseHealthScale>3</baseHealthScale>
+			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<hasGenders>false</hasGenders>
-			<wildness>0.80</wildness>
-			<lifeExpectancy>450</lifeExpectancy>
+			<gestationPeriodDays>30</gestationPeriodDays>			
+			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
-				
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0</minAge>
+					<minAge>0.8</minAge>
 					<soundWounded>Pawn_Bear_Injured</soundWounded>
 					<soundDeath>Pawn_Bear_Death</soundDeath>
 					<soundCall>Pawn_Bear_Call</soundCall>
@@ -139,23 +138,49 @@
 		</tradeTags>
 	</ThingDef>
 
-
-
-
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>JE_ZombieJoris</defName>
-		<label>zombie joris</label>
-		<race>JE_ZombieJoris</race>
-		<combatPower>450</combatPower>
+
+		<defName>JE_PerfectlyNormalJoris</defName>
+		<label>perfectly normal joris</label>
+		<race>JE_PerfectlyNormalJoris</race>
+		<combatPower>200</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
-		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
-			
-				
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_ZombieJoris/JE_ZombieJoris</texPath>
-					<drawSize>3.5</drawSize>
+					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
+					<drawSize>1.4</drawSize>
+					<color>(180,180,180)</color>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
+					<drawSize>2</drawSize>
+					<color>(180,180,180)</color>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
+					<drawSize>2.7</drawSize>
+					<color>(180,180,180)</color>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -163,7 +188,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>2.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
