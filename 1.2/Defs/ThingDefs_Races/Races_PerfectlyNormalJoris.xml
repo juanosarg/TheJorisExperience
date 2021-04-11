@@ -150,7 +150,7 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
 					<drawSize>1.4</drawSize>
-					<color>(180,180,180)</color>
+					
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -165,7 +165,7 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
 					<drawSize>2</drawSize>
-					<color>(180,180,180)</color>
+					
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -180,7 +180,7 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/JE_PerfectlyNormalJoris/JE_PerfectlyNormalJoris</texPath>
 					<drawSize>2.7</drawSize>
-					<color>(180,180,180)</color>
+					
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
