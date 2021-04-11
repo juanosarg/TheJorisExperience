@@ -1,0 +1,4 @@
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\TheJorisExperience\1.2\Source\TheJorisExperience\TheJorisExperience\obj\Debug\TheJorisExperience.csprojAssemblyReference.cache
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\TheJorisExperience\1.2\Source\TheJorisExperience\TheJorisExperience\obj\Debug\TheJorisExperience.csproj.CoreCompileInputs.cache
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\TheJorisExperience\1.2\Assemblies\TheJorisExperience.dll
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\TheJorisExperience\1.2\Source\TheJorisExperience\TheJorisExperience\obj\Debug\TheJorisExperience.dll
