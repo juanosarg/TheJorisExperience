@@ -3,26 +3,36 @@
 
 
 
-	<!-- ======================= Fat Jorry =============================== -->
+	<!-- ======================= Jonerys Bonbearean =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<description>Pardna!\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Fat Jorry doesn't go anywhere without his trusted Golen Shower. Oh no.</description>
+		<defName>JE_JonerysBonbearean</defName>
+		<label>Jonerys Bonbearean</label>
+		<description>Colloquially known as Jony, the Jonerys Bonbearean has an intimate connection to dragons, being able to lay dragon eggs. This makes sense.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Lays eggs. From which Draconic Jorises will hatch. All perfectly normal.</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 			<MarketValue>750</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
 		<comps>
-
-			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
-				<hediffname>JE_TorsoMinigun</hediffname>
-				<hediffseverity>1</hediffseverity>
+			
+			<li Class="AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Female</gender>
 
 			</li>
-
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>JE_EggJonerysFertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>JE_EggJonerysFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>4</eggLayIntervalDays>
+				<eggCountRange>
+					<min>1</min>
+					
+				</eggCountRange>
+			</li>
+			
+			
 		</comps>
 		<tools>
 			<li>
@@ -103,6 +113,7 @@
 				<Desert>0.005</Desert>
 				<ExtremeDesert>0.005</ExtremeDesert>				
 			</wildBiomes>
+			
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -114,12 +125,12 @@
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>			
+				
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-
-			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+			
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -150,17 +161,17 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<race>JE_FatJorry</race>
-		<combatPower>200</combatPower>
+		<defName>JE_JonerysBonbearean</defName>
+		<label>Jonerys Bonbearean</label>
+		<race>JE_JonerysBonbearean</race>
+		<combatPower>300</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_JonerysBonbearean/JE_JonerysBonbearean</texPath>
 					<drawSize>1.4</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -173,9 +184,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_JonerysBonbearean/JE_JonerysBonbearean</texPath>
 					<drawSize>2</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -188,9 +199,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_JonerysBonbearean/JE_JonerysBonbearean</texPath>
 					<drawSize>2.7</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

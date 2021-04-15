@@ -34,6 +34,36 @@
 		</projectile>
 		
 	</ThingDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>JE_BeamAttack</defName>
+		<label>yellow kamehameha</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_YellowBeam</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_YellowBeamFadeOut</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>2</totalSizeScale>
+		<tickFrameRate>4</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+		<projectile>
+			<damageDef>Flame</damageDef>		
+			<flyOverhead>false</flyOverhead>
+			<damageAmountBase>5</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<speed>20</speed>
+		</projectile>
+	</VFECore.ExpandableProjectileDef>
 
 
 

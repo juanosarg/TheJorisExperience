@@ -3,27 +3,39 @@
 
 
 
-	<!-- ======================= Fat Jorry =============================== -->
+	<!-- ======================= Joku =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<description>Pardna!\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Fat Jorry doesn't go anywhere without his trusted Golen Shower. Oh no.</description>
+		<defName>JE_Joku</defName>
+		<label>joku</label>
+		<description>A bear that perpetually wanders the Rim looking for a dragon's balls.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Kamehameha!</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 			<MarketValue>750</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		<comps>
-
-			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
-				<hediffname>JE_TorsoMinigun</hediffname>
-				<hediffseverity>1</hediffseverity>
-
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>JE_BeamAttack</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>1</minRange>
+				<range>18</range>	
+				<label>yellow kamehameha</label>	  				
+				<soundCast>JE_PoisonBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<commonality>1</commonality>
 			</li>
 
-		</comps>
+
+		</verbs>
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -103,6 +115,7 @@
 				<Desert>0.005</Desert>
 				<ExtremeDesert>0.005</ExtremeDesert>				
 			</wildBiomes>
+			
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -114,12 +127,12 @@
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>			
+			<gestationPeriodDays>30</gestationPeriodDays>		
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-
-			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+			
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -150,17 +163,17 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<race>JE_FatJorry</race>
-		<combatPower>200</combatPower>
+		<defName>JE_Joku</defName>
+		<label>joku</label>
+		<race>JE_Joku</race>
+		<combatPower>450</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_Joku/JE_Joku</texPath>
 					<drawSize>1.4</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -173,9 +186,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_Joku/JE_Joku</texPath>
 					<drawSize>2</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -188,9 +201,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_Joku/JE_Joku</texPath>
 					<drawSize>2.7</drawSize>
-
+					
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

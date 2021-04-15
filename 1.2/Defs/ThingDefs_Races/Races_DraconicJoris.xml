@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ================== Draconic Joris ==================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>JE_DraconicJoris</defName>
+		<label>draconic Joris</label>
+
+		<description>A weird lizard-bear creature. Seems to be quite peaceful and have a mind on its own. Perhaps it could be used as some sort of disposable guard beast.</description>
+		<statBases>
+			<MoveSpeed>3.00</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MarketValue>350</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>fangs</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.9</chanceFactor>
+
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		
+		<race>
+			<wildBiomes>
+
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<TropicalSwamp>0.01</TropicalSwamp>
+				<AridShrubland>0.05</AridShrubland>
+				<Desert>0.07</Desert>
+				<ExtremeDesert>0.05</ExtremeDesert>      
+
+			</wildBiomes>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<baseBodySize>2</baseBodySize>
+			<baseHealthScale>2</baseHealthScale>
+			<baseHungerRate>0.4</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>			
+			<wildness>0.45</wildness>
+			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<gestationPeriodDays>20</gestationPeriodDays>
+			<lifeExpectancy>37</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.3</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.6</minAge>
+						<soundWounded>Pawn_Iguana_Wounded</soundWounded>
+				  <soundDeath>Pawn_Iguana_Death</soundDeath>
+				  <soundCall>Pawn_Iguana_Call</soundCall>
+				  <soundAngry>Pawn_Iguana_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>JE_DraconicJoris</defName>
+		<label>draconic Joris</label>
+		<race>JE_DraconicJoris</race>
+		<combatPower>175</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
+
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_DraconicJoris/JE_DraconicJoris</texPath>
+					<drawSize>1.25</drawSize>
+					<shadowData>
+						<volume>(0.30, 0.25, 0.20)</volume>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_DraconicJoris/JE_DraconicJoris</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_DraconicJoris/JE_DraconicJoris</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.4)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

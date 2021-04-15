@@ -3,32 +3,33 @@
 
 
 
-	<!-- ======================= Fat Jorry =============================== -->
+	<!-- ======================= Joneral Grievous =============================== -->
 
-	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<description>Pardna!\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Fat Jorry doesn't go anywhere without his trusted Golen Shower. Oh no.</description>
+	<ThingDef ParentName="AnimalThingBase" >
+		<defName>JE_JoneralGrievous</defName>
+		<label>Joneral Grievous</label>
+		<description>Hello there! You are a bold one.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-robot, it requires very little sustenance, very very little sleep, is incapable of reproduction and feels almost no pain. Joneral Grievous' attacks set his targets on fire.</description>
+
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
-			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MoveSpeed>4</MoveSpeed>
+			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
+			<MarketValue>950</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
 		<comps>
-
+			
 			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
-				<hediffname>JE_TorsoMinigun</hediffname>
+				<hediffname>JE_NoPainLowRest</hediffname>
 				<hediffseverity>1</hediffseverity>
-
 			</li>
-
+			
+			
 		</comps>
 		<tools>
 			<li>
-				<label>left claw</label>
+				<label>left weapon from a more civilized age</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>JE_BurningStab</li>
 				</capacities>
 				<power>17</power>
 				<cooldownTime>2</cooldownTime>
@@ -43,9 +44,9 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>right claw</label>
+				<label>right weapon from a more civilized age</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>JE_BurningStab</li>
 				</capacities>
 				<power>17</power>
 				<cooldownTime>2</cooldownTime>
@@ -89,49 +90,36 @@
 			</li>
 		</tools>
 		<race>
+			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<wildBiomes>
-				<ColdBog>0.07</ColdBog>
+				<TemperateForest>0.02</TemperateForest>				
+				<TropicalRainforest>0.05</TropicalRainforest>
 				<BorealForest>0.02</BorealForest>
-				<Tundra>0.07</Tundra>				
+				<Tundra>0.07</Tundra>
+				<ColdBog>0.07</ColdBog>
 				<IceSheet>0.07</IceSheet>
 				<SeaIce>0.07</SeaIce>
-				<TemperateSwamp>0.02</TemperateSwamp>
-				<TemperateForest>0.02</TemperateForest>		
-				<TropicalSwamp>0.02</TropicalSwamp>					
-				<TropicalRainforest>0.05</TropicalRainforest>
-				<AridShrubland>0.005</AridShrubland>
-				<Desert>0.005</Desert>
-				<ExtremeDesert>0.005</ExtremeDesert>				
 			</wildBiomes>
-			<wildness>0.85</wildness>
-			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>3</maxPreyBodySize>
 			<body>QuadrupedAnimalWithPaws</body>
-			<baseHungerRate>0.35</baseHungerRate>
+			<baseHungerRate>0.01</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
-			<baseHealthScale>2.5</baseHealthScale>
+			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>			
-			<lifeExpectancy>22</lifeExpectancy>
+			<hasGenders>false</hasGenders>
+			<wildness>0.80</wildness>
+			<lifeExpectancy>450</lifeExpectancy>
 			<trainability>Advanced</trainability>
-
-			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<lifeStageAges>
-				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.4</minAge>
-				</li>
+				
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.8</minAge>
+					<minAge>0</minAge>
 					<soundWounded>Pawn_Bear_Injured</soundWounded>
 					<soundDeath>Pawn_Bear_Death</soundDeath>
 					<soundCall>Pawn_Bear_Call</soundCall>
@@ -148,49 +136,23 @@
 		</tradeTags>
 	</ThingDef>
 
+
+
+
 	<PawnKindDef ParentName="AnimalKindBase">
-
-		<defName>JE_FatJorry</defName>
-		<label>Fat Jorry</label>
-		<race>JE_FatJorry</race>
-		<combatPower>200</combatPower>
+		<defName>JE_JoneralGrievous</defName>
+		<label>Joneral Grievous</label>
+		<race>JE_JoneralGrievous</race>
+		<combatPower>450</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
+		
 		<lifeStages>
+			
+				
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
-					<drawSize>1.4</drawSize>
-
-					<shadowData>
-						<volume>(0.4, 0.3, 0.3)</volume>
-						<offset>(0,0,-0.2)</offset>
-					</shadowData>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>1.4</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
-					<drawSize>2</drawSize>
-
-					<shadowData>
-						<volume>(0.6, 0.45, 0.45)</volume>
-						<offset>(0,0,-0.25)</offset>
-					</shadowData>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>2</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_FatJorry/JE_FatJorry</texPath>
+					<texPath>Things/Pawn/Animal/JE_JoneralGrievous/JE_JoneralGrievous</texPath>
 					<drawSize>2.7</drawSize>
-
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
