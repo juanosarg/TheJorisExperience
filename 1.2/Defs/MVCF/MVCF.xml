@@ -9,6 +9,9 @@
 		<Features>
 			<RangedAnimals>true</RangedAnimals>			
 			<IntegratedToggle>true</IntegratedToggle>
+			<HediffVerbs>true</HediffVerbs>
+			<Drawing>true</Drawing>
+			<IndependentFire>true</IndependentFire>
 		</Features>
 	</MVCF.ModDef>
 

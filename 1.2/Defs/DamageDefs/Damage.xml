@@ -16,6 +16,13 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>JE_ExtraDamageAnimalsClaws</defName>
+		<label>rending claws</label>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraDamageAnimals</workerClass>
+		
+	</DamageDef>
 
 	
 

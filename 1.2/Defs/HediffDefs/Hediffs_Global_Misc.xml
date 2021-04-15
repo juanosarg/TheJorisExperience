@@ -21,7 +21,101 @@
 		</stages>
 	</HediffDef>
 
-	
+	<HediffDef>
+		<defName>JE_Alcohol</defName>
+		<label>alcohol</label>
+		<labelNoun>drunkenness</labelNoun>
+		<description>Alcohol in the bloodstream. It makes people happy, but reduces capacities.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Drunk</stateEffecter>
+				<severityIndices>3~5</severityIndices>
+			</li>
+
+		</comps>
+		<stages>
+
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>drunk</label>
+				<painFactor>0.5</painFactor>
+				<socialFightChanceFactor>4.0</socialFightChanceFactor>
+				<vomitMtbDays>0.75</vomitMtbDays>
+				<tale>Drunk</tale>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.85</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>JE_TorsoMinigun</defName>
+		<label>mounted minigun</label>
+		<labelNoun>a mounted minigun</labelNoun>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>A minigun mounted to the torso.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+				<verbs>
+					<li>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>1</accuracyTouch>
+						<accuracyShort>1</accuracyShort>
+						<accuracyMedium>1</accuracyMedium>
+						<accuracyLong>.75</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>JE_Bullet_GoldenShower</defaultProjectile>
+						<warmupTime>4</warmupTime>
+						<burstShotCount>20</burstShotCount>
+						<minRange>1</minRange>
+						<range>35.5</range>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>0</muzzleFlashScale>
+						<label>Fat Jorry's Golden Shower</label>
+						<commonality>.8</commonality>
+						<commandIcon>Things/Weapons/GoldenShower</commandIcon>
+					</li>
+				</verbs>
+				<verbProps>
+					<li>
+						<draw>true</draw>
+						<canBeToggled>true</canBeToggled>
+						<graphic>
+							<texPath>Things/Weapons/GoldenShower</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</graphic>
+						<canFireIndependently>true</canFireIndependently>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages><li></li></stages>
+	</HediffDef>
+
+
+
 
 
 </Defs>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<!-- ======================= Joralt of Rivia =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>JE_JoraltOfRivia</defName>
+		<label>joralt of rivia</label>
+		<description>This Joris bear is specialized in monster hunting, you should toss a coin to it.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Joralt of Rivia causes extra damage against animals. Regenerates health slowly over time. Incapable of reproduction.</description>
+		<statBases>
+			<MoveSpeed>4.6</MoveSpeed>
+			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
+			<MarketValue>750</MarketValue>
+		</statBases>
+		<uiIconScale>1.15</uiIconScale>
+		<comps>
+			
+			
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
+				<rateInTicks>80</rateInTicks>
+				
+			</li>
+			
+			
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>JE_ExtraDamageAnimalsClaws</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>JE_ExtraDamageAnimalsClaws</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>23.6</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<wildBiomes>
+				<ColdBog>0.07</ColdBog>
+				<BorealForest>0.02</BorealForest>
+				<Tundra>0.07</Tundra>				
+				<IceSheet>0.07</IceSheet>
+				<SeaIce>0.07</SeaIce>
+				<TemperateSwamp>0.02</TemperateSwamp>
+				<TemperateForest>0.02</TemperateForest>		
+				<TropicalSwamp>0.02</TropicalSwamp>					
+				<TropicalRainforest>0.05</TropicalRainforest>
+				<AridShrubland>0.005</AridShrubland>
+				<Desert>0.005</Desert>
+				<ExtremeDesert>0.005</ExtremeDesert>				
+			</wildBiomes>
+			<hasGenders>false</hasGenders>
+			<wildness>0.85</wildness>
+			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>3</maxPreyBodySize>
+			<body>QuadrupedAnimalWithPaws</body>
+			<baseHungerRate>0.35</baseHungerRate>
+			<baseBodySize>2.15</baseBodySize>
+			<baseHealthScale>2.5</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Bear</leatherDef>
+				
+			<lifeExpectancy>22</lifeExpectancy>
+			<trainability>Advanced</trainability>
+			
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>Pawn_Bear_Injured</soundWounded>
+					<soundDeath>Pawn_Bear_Death</soundDeath>
+					<soundCall>Pawn_Bear_Call</soundCall>
+					<soundAngry>Pawn_Bear_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>JE_JoraltOfRivia</defName>
+		<label>joralt of rivia</label>
+		<race>JE_JoraltOfRivia</race>
+		<combatPower>300</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_JoraltOfRivia/JE_JoraltOfRivia</texPath>
+					<drawSize>1.4</drawSize>
+					
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_JoraltOfRivia/JE_JoraltOfRivia</texPath>
+					<drawSize>2</drawSize>
+					
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/JE_JoraltOfRivia/JE_JoraltOfRivia</texPath>
+					<drawSize>2.7</drawSize>
+					
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

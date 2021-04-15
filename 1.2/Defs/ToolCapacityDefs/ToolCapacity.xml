@@ -9,6 +9,11 @@
 		<label>infected claws</label>
 	</ToolCapacityDef>
 	
+	<ToolCapacityDef>
+		<defName>JE_ExtraDamageAnimalsClaws</defName>
+		<label>rending claws</label>
+	</ToolCapacityDef>
+	
 	
 
 </Defs>

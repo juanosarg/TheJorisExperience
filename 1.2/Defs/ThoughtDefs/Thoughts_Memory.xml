@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<ThoughtDef>	
+		<defName>JE_LookAtTheMuscles</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>look at the muscles on you</label>
+				<description>This proves vampires can be sexy without sparkling.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>			
+	</ThoughtDef>
+
+	
+
+
+
+
+</Defs>

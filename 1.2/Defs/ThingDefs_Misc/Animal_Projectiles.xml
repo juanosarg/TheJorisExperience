@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	
-	
+
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>JE_HolyBolt</defName>
 		<label>holy bolt</label>
@@ -19,7 +19,23 @@
 		</projectile>
 	</ThingDef>
 
-	
+	<ThingDef ParentName="BaseBullet">
+		<defName>JE_Bullet_GoldenShower</defName>
+		<label>Jorisite bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/GoldenShower_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+		
+	</ThingDef>
+
+
 
 
 </Defs>
