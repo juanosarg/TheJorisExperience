@@ -89,18 +89,18 @@
 		</comps>
 		<race>
 			<wildBiomes>
-				<ColdBog>0.07</ColdBog>
+				<ColdBog>0.02</ColdBog>
 				<BorealForest>0.02</BorealForest>
-				<Tundra>0.07</Tundra>				
-				<IceSheet>0.07</IceSheet>
-				<SeaIce>0.07</SeaIce>
-				<TemperateSwamp>0.02</TemperateSwamp>
-				<TemperateForest>0.02</TemperateForest>		
-				<TropicalSwamp>0.02</TropicalSwamp>					
-				<TropicalRainforest>0.05</TropicalRainforest>
+				<Tundra>0.02</Tundra>				
+				<IceSheet>0.02</IceSheet>
+				<SeaIce>0.02</SeaIce>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<TemperateForest>0.01</TemperateForest>		
+				<TropicalSwamp>0.01</TropicalSwamp>					
+				<TropicalRainforest>0.01</TropicalRainforest>
 				<AridShrubland>0.005</AridShrubland>
 				<Desert>0.005</Desert>
-				<ExtremeDesert>0.005</ExtremeDesert>				
+				<ExtremeDesert>0.005</ExtremeDesert>					
 			</wildBiomes>
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>

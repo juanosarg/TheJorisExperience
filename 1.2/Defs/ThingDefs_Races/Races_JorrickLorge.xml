@@ -2,9 +2,9 @@
 <Defs>
 
 
-
 	<!-- ==================== Jorrick Lorge =========================-->
-
+	
+	
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JorrickLorge</defName>
 		<label>Jorrick Lorge</label>
@@ -56,6 +56,20 @@
 			</li>
 		</tools>
 		<race>
+			<wildBiomes>
+				<ColdBog>0.02</ColdBog>
+				<BorealForest>0.02</BorealForest>
+				<Tundra>0.02</Tundra>
+				<IceSheet>0.02</IceSheet>
+				<SeaIce>0.02</SeaIce>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<TemperateForest>0.01</TemperateForest>
+				<TropicalSwamp>0.01</TropicalSwamp>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				<AridShrubland>0.005</AridShrubland>
+				<Desert>0.005</Desert>
+				<ExtremeDesert>0.005</ExtremeDesert>
+			</wildBiomes>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<baseHungerRate>2.0</baseHungerRate>
@@ -92,13 +106,11 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>JE_JorrickLorge</defName>
 		<label>Jorrick Lorge</label>
@@ -150,8 +162,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
-
-
-
 </Defs>
