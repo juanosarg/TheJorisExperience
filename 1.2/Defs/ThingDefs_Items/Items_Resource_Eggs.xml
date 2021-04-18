@@ -23,7 +23,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>1</hatcherDaystoHatch>
-				<hatcherPawn>JE_DraconicJoris</hatcherPawn>
+				<hatcherPawn>JE_DracoJoris</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>

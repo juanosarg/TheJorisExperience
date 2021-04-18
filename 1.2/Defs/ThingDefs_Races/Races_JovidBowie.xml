@@ -3,18 +3,19 @@
 
 
 
-	<!-- ======================= Emo Joris =============================== -->
+	<!-- ======================= Jovid Bowie =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_EmoJoris</defName>
-		<label>emo joris</label>
-		<description>A very depressed, very misunderstood Joris.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Nuzzle period of 2 days. Emo Joris' hair grows constantly, and it can be used as a textile.</description>
+		<defName>JE_JovidBowie</defName>
+		<label>Jovid Bowie</label>
+		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 			<MarketValue>750</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
+		
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -79,18 +80,6 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		<comps>
-
-			
-
-			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
-				<resourceDef>JE_JorisHair</resourceDef>
-				<gatheringIntervalDays>3</gatheringIntervalDays>
-				<resourceAmount>20</resourceAmount>
-				<customResourceString>JE_HairCutting</customResourceString>
-			</li>
-
-		</comps>
 		<race>
 			<wildBiomes>
 				<ColdBog>0.07</ColdBog>
@@ -106,6 +95,7 @@
 				<Desert>0.005</Desert>
 				<ExtremeDesert>0.005</ExtremeDesert>				
 			</wildBiomes>
+			
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -117,10 +107,10 @@
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>			
+			<gestationPeriodDays>30</gestationPeriodDays>		
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			<nuzzleMtbHours>48</nuzzleMtbHours>
+			
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -153,15 +143,15 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_EmoJoris</defName>
-		<label>emo joris</label>
-		<race>JE_EmoJoris</race>
+		<defName>JE_JovidBowie</defName>
+		<label>Jovid Bowie</label>
+		<race>JE_JovidBowie</race>
 		<combatPower>200</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_EmoJoris/JE_EmoJoris</texPath>
+					<texPath>Things/Pawn/Animal/JE_JovidBowie/JE_JovidBowie</texPath>
 					<drawSize>1.4</drawSize>
 					
 					<shadowData>
@@ -176,7 +166,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_EmoJoris/JE_EmoJoris</texPath>
+					<texPath>Things/Pawn/Animal/JE_JovidBowie/JE_JovidBowie</texPath>
 					<drawSize>2</drawSize>
 					
 					<shadowData>
@@ -191,7 +181,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_EmoJoris/JE_EmoJoris</texPath>
+					<texPath>Things/Pawn/Animal/JE_JovidBowie/JE_JovidBowie</texPath>
 					<drawSize>2.7</drawSize>
 					
 					<shadowData>

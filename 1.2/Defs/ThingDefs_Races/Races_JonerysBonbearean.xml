@@ -116,14 +116,12 @@
 			
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
-			<herdAnimal>false</herdAnimal>
-			<predator>true</predator>
-			<maxPreyBodySize>3</maxPreyBodySize>
+			<herdAnimal>false</herdAnimal>			
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseHungerRate>0.35</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
-			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
 				
 			<lifeExpectancy>22</lifeExpectancy>

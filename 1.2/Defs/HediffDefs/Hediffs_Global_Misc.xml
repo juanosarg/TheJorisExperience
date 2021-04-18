@@ -95,6 +95,7 @@
 				</verbs>
 				<verbProps>
 					<li>
+						<label>Fat Jorry's Golden Shower</label>
 						<draw>true</draw>
 						<canBeToggled>true</canBeToggled>
 						<graphic>
@@ -102,6 +103,7 @@
 							<graphicClass>Graphic_Single</graphicClass>
 						</graphic>
 						<canFireIndependently>true</canFireIndependently>
+						
 					</li>
 				</verbProps>
 			</li>
