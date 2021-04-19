@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+ 
+
+
+
+  
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Minecraft</defName>
+    <label>Block Joris</label>
+    <description>This species of Joris is from a far off Rimworld inhabited by strange villagers who trade only in green gems, and strange green pigs that explode when provoked. No one knows how this Joris crossed worlds, yet here he is.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.35</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Minecraft</defName>
+    <label>Block Joris</label>
+    <race>Joris_Minecraft</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Minecraft</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Minecraft</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Minecraft</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Pickle</defName>
+    <label>Pickle Joris</label>
+    <description>Then he turned himself into a pickle, funniest shit I've ever seen.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.75</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Pickle</defName>
+    <label>Pickle Joris</label>
+    <race>Joris_Pickle</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pickle</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pickle</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pickle</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Larry</defName>
+    <label>Jarry Loris</label>
+    <description>This Joris seems to be a fan of the legendary intergalatic celebrity Fat Larry, having modeled his hair and clothes after him. Strangely, this Joris always seems to smell of Pizza.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.75</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Larry</defName>
+    <label>Jarry Loris</label>
+    <race>Joris_Larry</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Larry</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Larry</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Larry</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Siroj</defName>
+    <label>Jorisiroj</label>
+    <description>Thisiht Jorisiroj hasah evolvedevlove twowt separatetarapes bodieseidob whichcihw operatetarepo ini completetelpmoc harmonynomrah - thisiht Jorisiroj isi fearederaef throughoutuohguorht theht galaxyxalag.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.99</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Siroj</defName>
+    <label>Jorisiroj</label>
+    <race>Joris_Siroj</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Siroj</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Siroj</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Siroj</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Pooh</defName>
+    <label>Joris the Pooh</label>
+    <description>Oh bother - this Joris ate too much honey! Not only does he now have a golden-honey hue, he always has an abundance of honey for your colonists that he's happy to share.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.15</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Pooh</defName>
+    <label>Joris the Pooh</label>
+    <race>Joris_Pooh</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pooh</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pooh</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pooh</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Psychoid</defName>
+    <label>Psychoid Joris</label>
+    <description>What happens when Joris gets into the psychoid field? He dreams, and dreams deep. This Joris seems to constantly shift and blur at the edges, making him extremely hard to tame.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.99</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Psychoid</defName>
+    <label>Psychoid Joris</label>
+    <race>Joris_Psychoid</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Psychoid</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Psychoid</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Psychoid</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Super</defName>
+    <label>Super Joris</label>
+    <description>Is it a bird? Is it a plane? No! It's a polar bear wearing a wig, haphazardly stuffed into tights that are far too small, but then again, very few tailors create polar bear specific tights.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.99</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Super</defName>
+    <label>Super Joris</label>
+    <race>Joris_Super</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Super</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Super</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Super</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Cerberus</defName>
+    <label>Cerberjoris</label>
+    <description>A unique genetic cross-breed, this Joris is used by Urbworld enforcers as a deadly weapon to dispatch their enemies three times faster than a regular Joris.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.95</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Cerberus</defName>
+    <label>Cerberjoris</label>
+    <race>Joris_Cerberus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Cerberus</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Cerberus</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Cerberus</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Astley</defName>
+    <label>Joris Astley</label>
+    <description>Joris is never going to give you up, never going to let you down, never going to run around and desert you. Never going to make you cry, never going to say goodbye, never going to tell a lie and hurt you.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.95</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Astley</defName>
+    <label>Joris Astley</label>
+    <race>Joris_Astley</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Astley</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Astley</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Astley</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Joris_Jonah</defName>
+    <label>J. Joris Jameson</label>
+    <description>This Joris is obsessed with tracking down another elusive Joris known as Spider-Joris, going to any length necessary to finally bring that vigilante Joris to justice.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.95</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Jonah</defName>
+    <label>J. Joris Jameson</label>
+    <race>Joris_Jonah</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Jonah</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Jonah</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Jonah</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+    <ThingDef ParentName="BaseBear">
+    <defName>Joris_Pig</defName>
+    <label>Famous Devil Joris</label>
+    <description>Do not be fooled, this is no pig. This Joris has fashioned a polar bear-sized pig costume, equipped with teeny tiny devil horns and red jumpsuit, in order to cosplay as his favourite sauce mascot. A truly strange and bizarre Joris.</description>
+    <statBases>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+    </statBases>
+    <race>
+      <wildness>0.95</wildness>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Joris_Pig</defName>
+    <label>Famous Devil Joris</label>
+    <race>Joris_Pig</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pig</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pig</texPath>
+          <drawSize>2</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Joris_Uni/Joris_Pig</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(180,180,180)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

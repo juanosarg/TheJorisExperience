@@ -21,7 +21,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>JE_Bullet_GoldenShower</defName>
-		<label>Jorisite bullet</label>
+		<label>jorisite bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/GoldenShower_Bullet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -31,6 +31,22 @@
 			<damageAmountBase>5</damageAmountBase>
 			<armorPenetrationBase>0.45</armorPenetrationBase>
 			<speed>70</speed>
+		</projectile>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>JE_Tears</defName>
+		<label>tears</label>
+		<graphicData>
+			<texPath>Things/Projectile/JE_TearProjectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			
+			<speed>20</speed>
 		</projectile>
 		
 	</ThingDef>

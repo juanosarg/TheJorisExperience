@@ -19,6 +19,11 @@
 		<label>an elegant weapon for a more civilized age</label>
 	</ToolCapacityDef>
 	
+	<ToolCapacityDef>
+		<defName>JE_BleedingWound</defName>
+		<label>bleeding wound</label>
+	</ToolCapacityDef>
+	
 	
 
 </Defs>
