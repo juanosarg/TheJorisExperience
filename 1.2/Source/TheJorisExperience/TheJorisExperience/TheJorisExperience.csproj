@@ -33,6 +33,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.4\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -294,10 +298,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Defs\JorisToggleableSpawnDef.cs" />
+    <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Incidents\IncidentWorker_BiblicallyAccurateJorisEnters.cs" />
     <Compile Include="Projectiles\Projectile_Holy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\TheJorisExperience_Settings.cs" />
+    <Compile Include="Settings\TheJorisExperience_SettingsController.cs" />
     <Compile Include="Things\MiniOrbitalStrike.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

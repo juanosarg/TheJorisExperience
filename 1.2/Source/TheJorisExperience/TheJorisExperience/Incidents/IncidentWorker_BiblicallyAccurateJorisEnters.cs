@@ -15,7 +15,7 @@ namespace TheJorisExperience
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("JE_BiblicallyAccurateJoris")) && this.TryFindEntryCell(map, out intVec);
+            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("JE_BiblicallyAccurateJoris")) && this.TryFindEntryCell(map, out intVec) && TheJorisExperience_Mod.settings.flagBiblicallyAccurateJoris;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)

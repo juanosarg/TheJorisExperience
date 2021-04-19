@@ -14,7 +14,10 @@
 	<JE_Gin>Gin production:</JE_Gin>
 	<JE_HairCutting>Hair cutting time:</JE_HairCutting>
 
-
+	<!-- Mod Settings, animal toggles -->
+	
+	<JE_DisableAnimal>Disable {0}</JE_DisableAnimal>
+	<JE_AllowBiblicallyAccurateJoris>Allow Biblically Accurate Joris event</JE_AllowBiblicallyAccurateJoris>
 
 
 
