@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-	<!-- ======================= Spongejoris Squarebonson =============================== -->
-
+	<!-- ======================= Xorismorph Queen =============================== -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<defName>JE_XorismorphQueen</defName>
+		<label>xorismorph queen</label>
+		<description>This is what happens when a royal facehugger converts a Joris bear, and unstoppable killer that will make your life hell. Game over man, game over!\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Balance? What is balance?</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>5.75</MoveSpeed>
+			<ArmorRating_Blunt>1.8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.8</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.8</ArmorRating_Heat>
+			<MeatAmount>115</MeatAmount>
+			<LeatherAmount>90</LeatherAmount>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+			<ToxicSensitivity>0.25</ToxicSensitivity>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MarketValue>700</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -69,6 +71,16 @@
 				</surpriseAttack>
 			</li>
 			<li>
+				<label>inner teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
 				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
@@ -82,35 +94,33 @@
 		</tools>
 		<race>
 			<wildBiomes>
-				<ColdBog>0.01</ColdBog>
-				<BorealForest>0.01</BorealForest>
-				<Tundra>0.01</Tundra>				
-				<IceSheet>0.01</IceSheet>
-				<SeaIce>0.01</SeaIce>
+				<ColdBog>0.005</ColdBog>
+				<BorealForest>0.005</BorealForest>
+				<Tundra>0.005</Tundra>
+				<IceSheet>0.005</IceSheet>
+				<SeaIce>0.005</SeaIce>
 				<TemperateSwamp>0.005</TemperateSwamp>
-				<TemperateForest>0.005</TemperateForest>		
-				<TropicalSwamp>0.005</TropicalSwamp>					
+				<TemperateForest>0.005</TemperateForest>
+				<TropicalSwamp>0.005</TropicalSwamp>
 				<TropicalRainforest>0.005</TropicalRainforest>
-				<AridShrubland>0.0025</AridShrubland>
-				<Desert>0.0025</Desert>
-				<ExtremeDesert>0.0025</ExtremeDesert>					
+				<AridShrubland>0.005</AridShrubland>
+				<Desert>0.005</Desert>
+				<ExtremeDesert>0.005</ExtremeDesert>
 			</wildBiomes>
-			
-			<wildness>0.85</wildness>
+			<wildness>0.995</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<maxPreyBodySize>3</maxPreyBodySize>
+			<maxPreyBodySize>5</maxPreyBodySize>
 			<body>QuadrupedAnimalWithPaws</body>
-			<baseHungerRate>0.35</baseHungerRate>
-			<baseBodySize>2.15</baseBodySize>
-			<baseHealthScale>2.5</baseHealthScale>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>5</baseBodySize>
+			<baseHealthScale>20</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>		
+			<gestationPeriodDays>30</gestationPeriodDays>
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -140,20 +150,17 @@
 			<li>AnimalFighter</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
-
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<race>JE_SpongejorisSquarebonson</race>
-		<combatPower>200</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<defName>JE_XorismorphQueen</defName>
+		<label>xorismorph queen</label>
+		<race>JE_XorismorphQueen</race>
+		<combatPower>500</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
-					<drawSize>1.4</drawSize>
-					
+					<texPath>Things/Pawn/Animal/JE_XorismorphQueen/JE_XorismorphQueen</texPath>
+					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -161,14 +168,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
-					<drawSize>2</drawSize>
-					
+					<texPath>Things/Pawn/Animal/JE_XorismorphQueen/JE_XorismorphQueen</texPath>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -176,14 +182,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
-					<drawSize>2.7</drawSize>
-					
+					<texPath>Things/Pawn/Animal/JE_XorismorphQueen/JE_XorismorphQueen</texPath>
+					<drawSize>3.75</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -191,10 +196,9 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
-					<drawSize>2.7</drawSize>
+					<drawSize>3.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

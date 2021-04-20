@@ -3,19 +3,18 @@
 
 
 
-	<!-- ======================= Spongejoris Squarebonson =============================== -->
+	<!-- ======================= Jagoth Grr =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<defName>JE_JagothGrr</defName>
+		<label>jagoth grr</label>
+		<description>A psychically gifted bear, the Jagoth Grr can affect the minds of those nearby and turn them into maddened husks.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The masked visage of Jagoth Grr drives people insane. Anyone coming close to him risks having a psychotic mental break.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MarketValue>850</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -80,6 +79,14 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="AnimalBehaviours.CompProperties_MindEffecter">
+				<radius>15</radius>
+				<tickInterval>1500</tickInterval>
+				<mentalState>Wander_Psychotic</mentalState>
+			</li>
+			
+		</comps>
 		<race>
 			<wildBiomes>
 				<ColdBog>0.01</ColdBog>
@@ -95,7 +102,6 @@
 				<Desert>0.0025</Desert>
 				<ExtremeDesert>0.0025</ExtremeDesert>					
 			</wildBiomes>
-			
 			<wildness>0.85</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
@@ -107,10 +113,10 @@
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>		
+			<gestationPeriodDays>30</gestationPeriodDays>			
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			
+		
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -143,15 +149,15 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<race>JE_SpongejorisSquarebonson</race>
-		<combatPower>200</combatPower>
+		<defName>JE_JagothGrr</defName>
+		<label>jagoth grr</label>
+		<race>JE_JagothGrr</race>
+		<combatPower>500</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JE_JagothGrr/JE_JagothGrr</texPath>
 					<drawSize>1.4</drawSize>
 					
 					<shadowData>
@@ -166,7 +172,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JE_JagothGrr/JE_JagothGrr</texPath>
 					<drawSize>2</drawSize>
 					
 					<shadowData>
@@ -181,7 +187,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JE_JagothGrr/JE_JagothGrr</texPath>
 					<drawSize>2.7</drawSize>
 					
 					<shadowData>

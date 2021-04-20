@@ -198,6 +198,41 @@
 			<destroyedOutLabel>Cut out</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>JE_WaifuThought</defName>
+		<label>waifu power</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A waifu Joris polar bear is nearby, empowering this poor dweeb to go beyond the call of duty. It increases manipulation and moving stats for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+
+					<li>JE_WaifuThought</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 
 
 

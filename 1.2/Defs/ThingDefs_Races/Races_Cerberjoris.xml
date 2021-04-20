@@ -3,19 +3,18 @@
 
 
 
-	<!-- ======================= Spongejoris Squarebonson =============================== -->
+	<!-- ======================= Cerberjoris =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<defName>JECom_Cerberjoris</defName>
+		<label>Cerberjoris</label>
+		<description>A unique genetic cross-breed, this Joris is used by Urbworld enforcers as a deadly weapon to dispatch their enemies three times faster than a regular Joris.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: EXTREMELY deadly in close quarters.\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to BarackBebop.&lt;/color&gt;</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MarketValue>700</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -55,8 +54,8 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>23.6</power>
-				<cooldownTime>2.6</cooldownTime>
+				<power>20</power>
+				<cooldownTime>1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.5</chanceFactor>
 				<surpriseAttack>
@@ -93,24 +92,22 @@
 				<TropicalRainforest>0.005</TropicalRainforest>
 				<AridShrubland>0.0025</AridShrubland>
 				<Desert>0.0025</Desert>
-				<ExtremeDesert>0.0025</ExtremeDesert>					
+				<ExtremeDesert>0.0025</ExtremeDesert>				
 			</wildBiomes>
-			
-			<wildness>0.85</wildness>
+			<wildness>0.95</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<maxPreyBodySize>3</maxPreyBodySize>
-			<body>QuadrupedAnimalWithPaws</body>
-			<baseHungerRate>0.35</baseHungerRate>
+			<maxPreyBodySize>4</maxPreyBodySize>
+			<body>JE_ThreeHeadedQuadrupedAnimalWithPaws</body>
+			<baseHungerRate>0.5</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>		
+			<gestationPeriodDays>30</gestationPeriodDays>			
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -143,17 +140,17 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<race>JE_SpongejorisSquarebonson</race>
-		<combatPower>200</combatPower>
+		<defName>JECom_Cerberjoris</defName>
+		<label>Cerberjoris</label>
+		<race>JECom_Cerberjoris</race>
+		<combatPower>400</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_Cerberjoris/JECom_Cerberjoris</texPath>
 					<drawSize>1.4</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -166,9 +163,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_Cerberjoris/JECom_Cerberjoris</texPath>
 					<drawSize>2</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -181,9 +178,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_Cerberjoris/JECom_Cerberjoris</texPath>
 					<drawSize>2.7</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

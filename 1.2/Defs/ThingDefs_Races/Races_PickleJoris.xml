@@ -3,19 +3,31 @@
 
 
 
-	<!-- ======================= Spongejoris Squarebonson =============================== -->
+	<!-- ======================= Pickle Joris =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<defName>JECom_PickleJoris</defName>
+		<label>Pickle Joris</label>
+		<description>Then he turned himself into a pickle, funniest shit I've ever seen.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Pickle Joris doesn't produce any meat when slaughtered, instead producing a weird pickled vegetable substance. They can also be periodically harvested for it.\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to Sigma Draconis.&lt;/color&gt;</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
-			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MoveSpeed>3.8</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>1050</MarketValue>
+			<MeatAmount>0</MeatAmount>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		
+		<comps>
+
+			
+
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>JE_PickleJorisMeat</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>15</resourceAmount>
+				<customResourceString>JE_PickleJorisMeat</customResourceString>
+			</li>
+
+		</comps>
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -93,24 +105,20 @@
 				<TropicalRainforest>0.005</TropicalRainforest>
 				<AridShrubland>0.0025</AridShrubland>
 				<Desert>0.0025</Desert>
-				<ExtremeDesert>0.0025</ExtremeDesert>					
+				<ExtremeDesert>0.0025</ExtremeDesert>						
 			</wildBiomes>
-			
-			<wildness>0.85</wildness>
+			<wildness>0.75</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
-			<herdAnimal>false</herdAnimal>
-			<predator>true</predator>
-			<maxPreyBodySize>3</maxPreyBodySize>
+			<herdAnimal>false</herdAnimal>			
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseHungerRate>0.35</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
-			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>		
+			<gestationPeriodDays>30</gestationPeriodDays>			
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -135,25 +143,28 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+		<butcherProducts>
+			<JE_PickleJorisMeat>50</JE_PickleJorisMeat>
+		</butcherProducts>
 		<tradeTags>
 			<li>AnimalUncommon</li>
-			<li>AnimalFighter</li>
+			<li>AnimalFarm</li>
 		</tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<race>JE_SpongejorisSquarebonson</race>
+		<defName>JECom_PickleJoris</defName>
+		<label>Pickle Joris</label>
+		<race>JECom_PickleJoris</race>
 		<combatPower>200</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_PickleJoris/JECom_PickleJoris</texPath>
 					<drawSize>1.4</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -166,9 +177,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_PickleJoris/JECom_PickleJoris</texPath>
 					<drawSize>2</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -181,9 +192,9 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_PickleJoris/JECom_PickleJoris</texPath>
 					<drawSize>2.7</drawSize>
-					
+
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

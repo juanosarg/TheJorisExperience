@@ -95,13 +95,13 @@
 		<race>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<wildBiomes>
-				<TemperateForest>0.02</TemperateForest>				
-				<TropicalRainforest>0.05</TropicalRainforest>
-				<BorealForest>0.02</BorealForest>
-				<Tundra>0.07</Tundra>
-				<ColdBog>0.07</ColdBog>
-				<IceSheet>0.07</IceSheet>
-				<SeaIce>0.07</SeaIce>
+				<TemperateForest>0.005</TemperateForest>				
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<BorealForest>0.005</BorealForest>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<IceSheet>0.01</IceSheet>
+				<SeaIce>0.01</SeaIce>
 			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>

@@ -14,6 +14,20 @@
 			</li>
 		</stages>			
 	</ThoughtDef>
+	
+	<ThoughtDef>	
+		<defName>JE_WaifuThought</defName>
+		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+		<hediff>JE_WaifuThought</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>my waifu is nearby</label>
+				<description>Such a sexy beast, she must be mine.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>			
+	</ThoughtDef>
 
 	
 

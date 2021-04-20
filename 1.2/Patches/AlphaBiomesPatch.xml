@@ -338,6 +338,235 @@
 			</li>
 			
 			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_BlockJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_Cerberjoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JE_ChainsawJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_ColonistJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_FamousDevilJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+		
+						
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_IsaacJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_JJorisJameson"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_JorisAstley"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_JorisSiroj"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_JorisThePooh"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_PickleJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+		
+						
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_RoundJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JECom_SuperJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JE_FourLeggedUniJoris"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="JE_XorismorphQueen"]/race/wildBiomes</xpath>
+				<value>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
+				</value>
+			</li>
 			
 
 		</operations>

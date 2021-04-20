@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimBees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "JECom_JorisThePooh"]/comps</xpath>
+					<value>
+						<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+							<resourceDef>RB_BaseHoney</resourceDef>
+							<gatheringIntervalDays>1</gatheringIntervalDays>
+							<resourceAmount>10</resourceAmount>
+							<customResourceString>JE_RandomHoney</customResourceString>
+							<isRandom>true</isRandom>
+							<randomItems>
+								<li>RB_BaseHoney</li>
+								<li>RB_BlueHoney</li>
+								<li>RB_TastyHoney</li>
+								<li>RB_WhiteHoney</li>
+								<li>RB_PsychotropicHoney</li>
+								<li>RB_AdaptiveHoney</li>
+								<li>RB_BlackHoney</li>
+							</randomItems>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

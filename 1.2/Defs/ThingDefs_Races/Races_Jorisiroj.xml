@@ -3,19 +3,18 @@
 
 
 
-	<!-- ======================= Spongejoris Squarebonson =============================== -->
+	<!-- ======================= Jorisiroj =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<defName>JECom_JorisSiroj</defName>
+		<label>Jorisiroj</label>
+		<description>Thisiht Jorisiroj hasah evolvedevlove twowt separatetarapes bodieseidob whichcihw operatetarepo ini completetelpmoc harmonynomrah - thisiht Jorisiroj isi fearederaef throughoutuohguorht theht galaxyxalag.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The weird body plan of the Jorisiroj makes it dangerous in close quarters due to having two heads.\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to Rygoth.&lt;/color&gt;</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>750</MarketValue>
+			<MarketValue>700</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
-		
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -52,10 +51,11 @@
 				</surpriseAttack>
 			</li>
 			<li>
+				<label>front teeth</label>
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>23.6</power>
+				<power>15</power>
 				<cooldownTime>2.6</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.5</chanceFactor>
@@ -69,11 +69,40 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>head</label>
+				<label>rear teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>front head</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>11</power>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -95,22 +124,20 @@
 				<Desert>0.0025</Desert>
 				<ExtremeDesert>0.0025</ExtremeDesert>					
 			</wildBiomes>
-			
-			<wildness>0.85</wildness>
+			<wildness>0.99</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>3</maxPreyBodySize>
-			<body>QuadrupedAnimalWithPaws</body>
-			<baseHungerRate>0.35</baseHungerRate>
+			<body>JE_DualHeads</body>
+			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
-			<gestationPeriodDays>30</gestationPeriodDays>		
+			<gestationPeriodDays>30</gestationPeriodDays>			
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -143,17 +170,18 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 
-		<defName>JE_SpongejorisSquarebonson</defName>
-		<label>Spongejoris Squarebonson</label>
-		<race>JE_SpongejorisSquarebonson</race>
-		<combatPower>200</combatPower>
+		<defName>JECom_JorisSiroj</defName>
+		<label>Jorisiroj</label>
+		<race>JECom_JorisSiroj</race>
+		<combatPower>300</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_JorisSiroj/JECom_JorisSiroj</texPath>
 					<drawSize>1.4</drawSize>
-					
+					<color>(180,180,180)</color>
+
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -166,9 +194,10 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_JorisSiroj/JECom_JorisSiroj</texPath>
 					<drawSize>2</drawSize>
-					
+					<color>(180,180,180)</color>
+
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -181,9 +210,10 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/JE_SpongejorisSquarebonson/JE_SpongejorisSquarebonson</texPath>
+					<texPath>Things/Pawn/Animal/JECom_JorisSiroj/JECom_JorisSiroj</texPath>
 					<drawSize>2.7</drawSize>
-					
+					<color>(180,180,180)</color>
+
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

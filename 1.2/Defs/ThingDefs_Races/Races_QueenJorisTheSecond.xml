@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_QueenJorisTheSecond</defName>
 		<label>Queen Joris The Second</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.</description>
+		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
@@ -82,18 +82,18 @@
 		</tools>
 		<race>
 			<wildBiomes>
-				<ColdBog>0.02</ColdBog>
-				<BorealForest>0.02</BorealForest>
-				<Tundra>0.02</Tundra>				
-				<IceSheet>0.02</IceSheet>
-				<SeaIce>0.02</SeaIce>
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TemperateForest>0.01</TemperateForest>		
-				<TropicalSwamp>0.01</TropicalSwamp>					
-				<TropicalRainforest>0.01</TropicalRainforest>
-				<AridShrubland>0.005</AridShrubland>
-				<Desert>0.005</Desert>
-				<ExtremeDesert>0.005</ExtremeDesert>					
+				<ColdBog>0.01</ColdBog>
+				<BorealForest>0.01</BorealForest>
+				<Tundra>0.01</Tundra>				
+				<IceSheet>0.01</IceSheet>
+				<SeaIce>0.01</SeaIce>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TemperateForest>0.005</TemperateForest>		
+				<TropicalSwamp>0.005</TropicalSwamp>					
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<AridShrubland>0.0025</AridShrubland>
+				<Desert>0.0025</Desert>
+				<ExtremeDesert>0.0025</ExtremeDesert>				
 			</wildBiomes>
 			
 			<wildness>0.85</wildness>
