@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
-
 	<TheJorisExperience.JorisToggleableSpawnDef>
 		<defName>JE_ToggleableAnimals</defName>
-		<toggleablePawns>			
+		<toggleablePawns>
+			<li>JECom_BlockJoris</li>
+			<li>JECom_Cerberjoris</li>
+			<li>JECom_ColonistJoris</li>
+			<li>JECom_FamousDevilJoris</li>
+			<li>JECom_IsaacJoris</li>
+			<li>JECom_JJorisJameson</li>
+			<li>JECom_JorisAstley</li>
+			<li>JECom_JorisSiroj</li>
+			<li>JECom_JorisThePooh</li>
+			<li>JECom_PickleJoris</li>
+			<li>JECom_RoundJoris</li>
+			<li>JECom_SuperJoris</li>
 			<li>JE_AnimeMascotJoris</li>
 			<li>JE_BeefeaterJoris</li>
 			<li>JE_BiblicallyAccurateJoris</li>
+			<li>JE_ChainsawJoris</li>
 			<li>JE_ChiefOBonson</li>
 			<li>JE_DracoJoris</li>
 			<li>JE_EmoJoris</li>
 			<li>JE_FatJorry</li>
+			<li>JE_FourLeggedUniJoris</li>
 			<li>JE_JagothGrr</li>
 			<li>JE_JockExcellente</li>
 			<li>JE_Joku</li>
@@ -29,14 +41,9 @@
 			<li>JE_PerfectlyNormalJoris</li>
 			<li>JE_QueenJorisTheSecond</li>
 			<li>JE_SpongejorisSquarebonson</li>
+			<li>JE_XorismorphQueen</li>
 			<li>JE_YugiJohris</li>
 			<li>JE_ZombieJoris</li>
-		</toggleablePawns>							
+		</toggleablePawns>
 	</TheJorisExperience.JorisToggleableSpawnDef>
-
-
-
-
-
-
 </Defs>
