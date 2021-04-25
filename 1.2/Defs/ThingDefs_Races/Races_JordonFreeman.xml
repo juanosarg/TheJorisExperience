@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JordonFreeman</defName>
 		<label>jordon freeman</label>
-		<description>Rise and shine, mr. Jordon, rise and shine.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<description>A highly intelligent Joris, this creature always carries a metal bar, or the closest it can find, and uses it to hit boxes, containers, and any sort of barrel-shaped object. It has been seen preying on small crab-like creatures and has an aversion to anything hanging from above, such as stalactites, vines, or branches.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

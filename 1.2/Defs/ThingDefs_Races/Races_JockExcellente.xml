@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase" >
 		<defName>JE_JockExcellente</defName>
 		<label>jock excellente</label>
-		<description>The sexiest brother of the Excellente clan, this vampiric bear will inspire everyone nearby.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-undead creature, it requires very little sustenance, very very little sleep, and feels almost no pain. It is incapable of reproduction. It regenerates its health quite fast.</description>
+		<description> A stylish and charismatic Joris who entrances colonists with his suave and seductive ways, but shares a bitter rivalry with other species of Excellente Joris'. Jock Excellente is known for his keen fashion sense, sporting a look that would make even the Stellarch jealous.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-undead creature, it requires very little sustenance, very very little sleep, and feels almost no pain. It is incapable of reproduction. It regenerates its health quite fast. It is sexy.</description>
 
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>

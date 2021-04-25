@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_EmoJoris</defName>
 		<label>emo joris</label>
-		<description>A very depressed, very misunderstood Joris.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Nuzzle period of 2 days. Emo Joris' hair grows constantly, and it can be used as a textile.</description>
+		<description>A Joris that has longer hair than most Joris' that it specifically grew to not be like other Joris'. Unfortunately for this Joris, it backfired as it now bears a striking resemblance to a popular holonet horror film antagonist, and has subsequently been hunted to near extinction by startled traders and spacers alike.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Nuzzle period of 2 days. Emo Joris' hair grows constantly, and it can be used as a textile.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

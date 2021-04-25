@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JonerysBonbearean</defName>
 		<label>Jonerys Bonbearean</label>
-		<description>Colloquially known as Jony, the Jonerys Bonbearean has an intimate connection to dragons, being able to lay dragon eggs. This makes sense.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Lays eggs. From which Draconic Jorises will hatch. All perfectly normal.</description>
+		<description>A Joris from a far-off land said to descend from a mighty kingdom of Joris'. This Joris is one of the last survivors of its kind and has a unique ability to live symbiotically with any sort of reptile creatures that it comes across. Colloquially known as Jony, the Jonerys Bonbearean is able to lay dragon eggs. This makes sense.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Lays eggs. From which Draconic Jorises will hatch. All perfectly normal.</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

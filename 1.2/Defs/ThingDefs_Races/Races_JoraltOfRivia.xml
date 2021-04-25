@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JoraltOfRivia</defName>
 		<label>joralt of rivia</label>
-		<description>This Joris bear is specialized in monster hunting, you should toss a coin to it.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Joralt of Rivia causes extra damage against animals. Regenerates health slowly over time. Incapable of reproduction.</description>
+		<description>One of the most intelligent Joris' that has been discovered. A mutant Joris that seems to spend its time hunting other large, dangerous creatures, using tools and plants at its disposal. There are many sightings of this Joris being drawn to places of power, such as exposed generators.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Joralt of Rivia causes extra damage against animals. Regenerates health slowly over time. Incapable of reproduction.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

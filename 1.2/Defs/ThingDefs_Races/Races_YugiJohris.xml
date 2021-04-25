@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_YugiJohris</defName>
 		<label>Yu-Gi-Johris!</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<description>A Joris with incredibly ostentatious hair, which Glitterworld veterinarians believe to be the source of its power. This Joris has been remarked as having surprisingly low aggression, but instead rallies other creatures to fight on its behalf, and is capable of controlling their actions through some unknown means.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
@@ -22,7 +22,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>17</power>
+				<power>12</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -39,7 +39,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>17</power>
+				<power>12</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -96,23 +96,21 @@
 				<ExtremeDesert>0.0025</ExtremeDesert>						
 			</wildBiomes>
 			
-			<wildness>0.85</wildness>
+			<wildness>0.35</wildness>
 			<useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
-			<predator>true</predator>
-			<maxPreyBodySize>3</maxPreyBodySize>
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseHungerRate>0.35</baseHungerRate>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
-			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<foodType>OmnivoreRoughAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Bear</leatherDef>
 			<gestationPeriodDays>30</gestationPeriodDays>		
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			
-			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.05</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

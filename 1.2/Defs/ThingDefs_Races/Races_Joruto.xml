@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_Joruto</defName>
 		<label>joruto</label>
-		<description>A young, naive ninja bear capable of producing multiple copies of itself.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Jorutos will constantly reproduce by asexual reproduction until your map is filled with them (actually, up to 15 per map, cause I don't want to fry your computer).</description>
+		<description>Joruto is a hyper-active and incredibly annoying Joris that yells at the most inappropriate moments, yet for reasons no scientist can explain, always seem to be able to endear itself to anyone it wants to. This naive ninja bear is capable of producing multiple copies of itself.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Jorutos will constantly reproduce by asexual reproduction until your map is filled with them (actually, up to 10 per map, cause I don't want to fry your computer).</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
@@ -23,7 +23,7 @@
 				<reproductionIntervalDays>1</reproductionIntervalDays>
 				<customString>Cloning in: </customString>
 				<isGreenGoo>true</isGreenGoo>
-				<GreenGooLimit>15</GreenGooLimit>
+				<GreenGooLimit>10</GreenGooLimit>
 				<GreenGooTarget>JE_Joruto</GreenGooTarget>
 
 			</li>

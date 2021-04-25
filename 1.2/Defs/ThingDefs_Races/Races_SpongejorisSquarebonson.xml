@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_SpongejorisSquarebonson</defName>
 		<label>Spongejoris Squarebonson</label>
-		<description>.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+		<description>A horrifying semi-aquatic Joris, this Joris is perhaps the further away evolutionarily from all other Joris'. Physiologically, it is covered in large holes that allow it to filter feed, though has been observed preparing, and consuming, processed slabs of meat.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
@@ -82,14 +82,14 @@
 		</tools>
 		<race>
 			<wildBiomes>
-				<ColdBog>0.01</ColdBog>
-				<BorealForest>0.01</BorealForest>
-				<Tundra>0.01</Tundra>				
-				<IceSheet>0.01</IceSheet>
-				<SeaIce>0.01</SeaIce>
-				<TemperateSwamp>0.005</TemperateSwamp>
+				<ColdBog>0.005</ColdBog>
+				<BorealForest>0.005</BorealForest>
+				<Tundra>0.005</Tundra>				
+				<IceSheet>0.005</IceSheet>
+				<SeaIce>0.005</SeaIce>
+				<TemperateSwamp>0.01</TemperateSwamp>
 				<TemperateForest>0.005</TemperateForest>		
-				<TropicalSwamp>0.005</TropicalSwamp>					
+				<TropicalSwamp>0.01</TropicalSwamp>					
 				<TropicalRainforest>0.005</TropicalRainforest>
 				<AridShrubland>0.0025</AridShrubland>
 				<Desert>0.0025</Desert>

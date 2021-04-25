@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JagothGrr</defName>
 		<label>jagoth grr</label>
-		<description>A psychically gifted bear, the Jagoth Grr can affect the minds of those nearby and turn them into maddened husks.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The masked visage of Jagoth Grr drives people insane. Anyone coming close to him risks having a psychotic mental break.</description>
+		<description>Jagoth Grr is an egomaniacal Joris with extremely deadly abilities that seek to conquer the Rim with fire and war. Many colonists claim that they see Jagoth Grr in visions and dreams, where he growls at them menacingly and slowly warps their minds.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The masked visage of Jagoth Grr drives people insane. Anyone coming close to him risks having a psychotic mental break.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

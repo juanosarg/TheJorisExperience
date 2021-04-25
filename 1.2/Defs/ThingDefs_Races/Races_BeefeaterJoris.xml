@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_BeefeaterJoris</defName>
 		<label>beefeater joris</label>
-		<description>A bearskin hat-wearing Joris, the Beefeater Joris spends his days completely smashed.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Perpetually drunk. Produces gin every day (requires Vanilla Brewing Expanded).</description>
+		<description>This Joris is the lowest ranking Joris on the Royal Joris hierarchy, and is relegated to guard duties for other, higher ranking, Royal Joris'. He has a deep resentment of Rimworld colonists who laugh and poke fun at his silly bearskin hat. The Beefeater Joris spends his days completely smashed.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Perpetually drunk. Produces gin every day (requires Vanilla Brewing Expanded).</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

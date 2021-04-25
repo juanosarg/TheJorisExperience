@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase" >
 		<defName>JE_JoneralGrievous</defName>
 		<label>Joneral Grievous</label>
-		<description>Hello there! You are a bold one.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-robot, it requires very little sustenance, very very little sleep, is incapable of reproduction and feels almost no pain. Joneral Grievous' attacks set his targets on fire.</description>
+		<description>A Joris that was cruelly experimented on by an intergalactic warlord to be used as a weapon of war. It has an additional two biomechanical limbs, and its regular polar bear limbs have been improved with thumbs, allowing this Joris to be deadly with a melee weapon.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-robot, it requires very little sustenance, very very little sleep, is incapable of reproduction and feels almost no pain. Joneral Grievous' attacks set his targets on fire.</description>
 
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>

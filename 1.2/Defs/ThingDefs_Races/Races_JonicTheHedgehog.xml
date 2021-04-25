@@ -8,7 +8,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>JE_JonicTheHedgehog</defName>
 		<label>jonic the hedgehog</label>
-		<description>Gotta go fast!\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: While not as stromg as other Jorises, Jonic is the fastest.</description>
+		<description>This strange blue Joris is an exceptionally fast creature, with stories spreading far and wide of it rolling around at the speed of sound. Its feet are said to bring untold fortune to anyone capable of capturing such an elusive Joris.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: While not as strong as other Jorises, Jonic is the fastest.</description>
 		<statBases>
 			<MoveSpeed>9</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
