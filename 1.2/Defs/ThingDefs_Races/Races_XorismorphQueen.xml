@@ -15,9 +15,19 @@
 			<PsychicSensitivity>0.25</PsychicSensitivity>
 			<ToxicSensitivity>0.25</ToxicSensitivity>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
-			<MarketValue>700</MarketValue>
+			<MarketValue>1500</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
+		<comps>
+			
+			
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
+				<rateInTicks>40</rateInTicks>
+				
+			</li>
+			
+			
+		</comps>
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -121,8 +131,8 @@
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -154,7 +164,7 @@
 		<defName>JE_XorismorphQueen</defName>
 		<label>xorismorph queen</label>
 		<race>JE_XorismorphQueen</race>
-		<combatPower>500</combatPower>
+		<combatPower>750</combatPower>
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
