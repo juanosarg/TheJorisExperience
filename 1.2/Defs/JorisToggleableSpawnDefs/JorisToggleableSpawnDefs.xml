@@ -44,6 +44,7 @@
 			<li>JE_XorismorphQueen</li>
 			<li>JE_YugiJohris</li>
 			<li>JE_ZombieJoris</li>
+			<li>JECom_VoidJoris</li>
 		</toggleablePawns>
 	</TheJorisExperience.JorisToggleableSpawnDef>
 </Defs>

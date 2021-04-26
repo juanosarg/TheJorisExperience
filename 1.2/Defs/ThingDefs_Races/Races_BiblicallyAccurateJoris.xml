@@ -90,8 +90,9 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalUncommon</li>
-			<li>AnimalFighter</li>
+			<li>AnimalExotic</li>
+			
+			<li>AnimalAlpha</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -102,6 +103,7 @@
 		<race>JE_BiblicallyAccurateJoris</race>
 		<combatPower>2000</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			
 			<li>

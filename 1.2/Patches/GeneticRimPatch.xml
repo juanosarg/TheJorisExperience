@@ -39,7 +39,7 @@
 						<li>Corpse_JE_SpongejorisSquarebonson</li>
 						<li>Corpse_JE_YugiJohris</li>
 						<li>Corpse_JE_ZombieJoris</li>
-						
+
 						<li>Corpse_JECom_BlockJoris</li>
 						<li>Corpse_JECom_Cerberjoris</li>
 						<li>Corpse_JE_ChainsawJoris</li>
@@ -55,6 +55,7 @@
 						<li>Corpse_JECom_SuperJoris</li>
 						<li>Corpse_JE_FourLeggedUniJoris</li>
 						<li>Corpse_JE_XorismorphQueen</li>
+						<li>Corpse_JECom_VoidJoris</li>
 
 
 					</value>
@@ -89,7 +90,7 @@
 						<li>Corpse_JE_SpongejorisSquarebonson</li>
 						<li>Corpse_JE_YugiJohris</li>
 						<li>Corpse_JE_ZombieJoris</li>
-						
+
 						<li>Corpse_JECom_BlockJoris</li>
 						<li>Corpse_JECom_Cerberjoris</li>
 						<li>Corpse_JE_ChainsawJoris</li>
@@ -105,6 +106,8 @@
 						<li>Corpse_JECom_SuperJoris</li>
 						<li>Corpse_JE_FourLeggedUniJoris</li>
 						<li>Corpse_JE_XorismorphQueen</li>
+						<li>Corpse_JECom_VoidJoris</li>
+
 					</value>
 				</li>	
 
