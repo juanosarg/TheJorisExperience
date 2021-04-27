@@ -15,7 +15,7 @@
 			<PsychicSensitivity>0.10</PsychicSensitivity>
 			<ToxicSensitivity>0</ToxicSensitivity>
 			<ComfyTemperatureMin>-250</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-250</ComfyTemperatureMax>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<MarketValue>2500</MarketValue>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
