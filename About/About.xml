@@ -1,6 +1,6 @@
 <ModMetaData>
 	<name>The Joris Experience</name>
-	<author>Sarg Bjornson</author>
+	<author>Sarg Bjornson, Roll1D2Games</author>
 	<supportedVersions>
     
 	  <li>1.2</li>
@@ -26,5 +26,8 @@
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	
 	</loadAfter>
-	<description>Rawr</description>
+	<description>Are you ready for The Joris Experience?
+	
+	The most important animal mod ever made.
+	</description>
 </ModMetaData>
