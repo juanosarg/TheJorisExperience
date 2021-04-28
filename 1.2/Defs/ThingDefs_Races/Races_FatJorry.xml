@@ -20,6 +20,8 @@
 			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
 				<hediffname>JE_TorsoMinigun</hediffname>
 				<hediffseverity>1</hediffseverity>
+				<applyToAGivenBodypart>true</applyToAGivenBodypart>
+				<part>Body</part>
 
 			</li>
 
