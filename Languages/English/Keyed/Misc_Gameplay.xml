@@ -8,6 +8,10 @@
 	
 	<JE_BiblicallyAccurateJorisEntersLetterLabel>The Nth Coming</JE_BiblicallyAccurateJorisEntersLetterLabel>
 	<JE_BiblicallyAccurateJorisEntersLetter>A truly bizarre creature has appeared nearby, heralded by freak blasts of light and a faint sound of trumpets.\n\nIt seems not to be very interested in the colony, and perhaps it would be wise to give it a wide berth.</JE_BiblicallyAccurateJorisEntersLetter>
+	
+	<JE_LetterLabelJorisCargoPodCrash>Joris Cargo Pod</JE_LetterLabelJorisCargoPodCrash>
+	<JE_JorisCargoPodCrash>You have detected a cargo pod crashing nearby. A captive exotic polar bear seems to be inside.\n\nWho knows, but perhaps you'll find something useful in the wreckage. Or love. You may find love.</JE_JorisCargoPodCrash>
+
 
 	<!-- Resources -->
 	
@@ -21,6 +25,8 @@
 	
 	<JE_DisableAnimal>Disable {0}</JE_DisableAnimal>
 	<JE_AllowBiblicallyAccurateJoris>Allow Biblically Accurate Joris event</JE_AllowBiblicallyAccurateJoris>
+	
+	
 
 
 

@@ -16,6 +16,17 @@
 		<earliestDay>30</earliestDay>
 
 	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>JE_ResourcePodCrash</defName>
+		<label>joris experience resource pod crash</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>TheJorisExperience.IncidentWorker_JorisResourcePodCrash</workerClass>
+		<baseChance>0</baseChance>
+	</IncidentDef>
 
 
 

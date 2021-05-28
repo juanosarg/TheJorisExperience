@@ -302,6 +302,8 @@
     <Compile Include="Harmony\TrainableUtility_TamenessCanDecay.cs" />
     <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Hediffs\Hediff_BleedingWound.cs" />
+    <Compile Include="Incidents\IncidentWorker_JorisResourcePodCrash.cs" />
+    <Compile Include="Incidents\ThingSetMaker_JorisResourcePod.cs" />
     <Compile Include="Incidents\IncidentWorker_BiblicallyAccurateJorisEnters.cs" />
     <Compile Include="Projectiles\Projectile_Holy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

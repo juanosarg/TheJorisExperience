@@ -23,6 +23,7 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>brrainz.harmony</li>
+		<li>vanillaexpanded.achievements</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	
 	</loadAfter>
