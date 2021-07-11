@@ -45,6 +45,8 @@
 			<li>JE_YugiJohris</li>
 			<li>JE_ZombieJoris</li>
 			<li>JECom_VoidJoris</li>
+			<li>JE_JoskarBontocki</li>
+			<li>JE_NoitaJoris</li>
 		</toggleablePawns>
 	</TheJorisExperience.JorisToggleableSpawnDef>
 </Defs>

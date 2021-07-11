@@ -272,6 +272,14 @@
 										<key>JE_ZombieJoris</key>
 										<value>1</value>
 									</li>
+									<li>
+										<key>JE_JoskarBontocki</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_NoitaJoris</key>
+										<value>1</value>
+									</li>
 									
 								</kindDefs>
 								<requireAll>false</requireAll>
@@ -439,6 +447,14 @@
 									</li>
 									<li>
 										<key>JE_ZombieJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoskarBontocki</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_NoitaJoris</key>
 										<value>1</value>
 									</li>
 									

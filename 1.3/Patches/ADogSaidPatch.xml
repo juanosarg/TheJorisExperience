@@ -4,16 +4,12 @@
 		<mods>
 			<li>A Dog Said... Animal Prosthetics</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
-
 				<!-- Organ installing recipes == should be most animals -->
 				<li Class="PatchOperationAdd">
-
 					<xpath>/Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
 						<li>JE_BiblicallyAccurateJoris</li>
@@ -40,7 +36,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -56,17 +51,16 @@
 						<li>JECom_SuperJoris</li>
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
-						
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<!-- Organ installing recipes == should be most animals -->
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
 						<li>JE_BiblicallyAccurateJoris</li>
@@ -93,7 +87,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -110,9 +103,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicAnimalKidney surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
@@ -143,7 +137,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -160,9 +153,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicAnimalLiver surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
@@ -193,7 +187,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -210,9 +203,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicAnimalLung surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
@@ -243,7 +237,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -260,9 +253,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicAnimalHeart surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
@@ -293,7 +287,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -310,14 +303,14 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallAnimalBrainStimulator surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
 						<li>JE_BiblicallyAccurateJoris</li>
@@ -344,7 +337,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -361,17 +353,16 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallSpineAnimalBionic surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or defName ="InstallSpineAnimalSimple"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
-						
 						<li>JE_ChiefOBonson</li>
 						<li>JE_DracoJoris</li>
 						<li>JE_EmoJoris</li>
@@ -395,7 +386,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -412,11 +402,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
-
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallJawAnimalBionic surgery <recipeUsers> -->
 					<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or defName ="InstallJawAnimalSimple"]/recipeUsers</xpath>
@@ -447,7 +436,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -464,17 +452,14 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
-
-
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallNoseAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
 						<li>JE_BiblicallyAccurateJoris</li>
@@ -501,7 +486,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -518,9 +502,10 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallBionicEyeAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
@@ -551,7 +536,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -568,17 +552,16 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallEarAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or defName ="InstallEarAnimalBionic"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
-						
 						<li>JE_ChiefOBonson</li>
 						<li>JE_DracoJoris</li>
 						<li>JE_EmoJoris</li>
@@ -602,7 +585,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -619,21 +601,17 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
-
-
-
 				<!-- Leg installing recipes == should be most animals -->
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or defName ="InstallSimpleProstheticLegAnimal" or defName ="InstallBionicLegAnimal"]/recipeUsers</xpath>
 					<value>
-
 						<li>JE_AnimeMascotJoris</li>
 						<li>JE_BeefeaterJoris</li>
-						
 						<li>JE_ChiefOBonson</li>
 						<li>JE_DracoJoris</li>
 						<li>JE_EmoJoris</li>
@@ -657,7 +635,6 @@
 						<li>JE_SpongejorisSquarebonson</li>
 						<li>JE_YugiJohris</li>
 						<li>JE_ZombieJoris</li>
-						
 						<li>JECom_BlockJoris</li>
 						<li>JECom_Cerberjoris</li>
 						<li>JE_ChainsawJoris</li>
@@ -674,44 +651,22 @@
 						<li>JE_FourLeggedUniJoris</li>
 						<li>JE_XorismorphQueen</li>
 						<li>JECom_VoidJoris</li>
+						<li>JE_JoskarBontocki</li>
+						<li>JE_NoitaJoris</li>
 					</value>
 				</li>
-
-
-
-
-
-
-
-
 				<!-- Tail installing recipe == Only for animal with tail-->
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallSimpleProstheticTailAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
 					<value>
-
-
-						
 						<li>JE_DracoJoris</li>
-						
 						<li>JE_JoobyDoo</li>
-						
 						<li>JE_JorrickLorge</li>
-						
-						
-						
-
-
 					</value>
 				</li>
-
-
-				
-
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 
