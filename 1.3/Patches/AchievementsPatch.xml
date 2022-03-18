@@ -280,6 +280,14 @@
 										<key>JE_NoitaJoris</key>
 										<value>1</value>
 									</li>
+									<li>
+										<key>JE_JoompaBoompa</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChocoMinchoMintChocoChokyJoris</key>
+										<value>1</value>
+									</li>
 									
 								</kindDefs>
 								<requireAll>false</requireAll>
@@ -455,6 +463,14 @@
 									</li>
 									<li>
 										<key>JE_NoitaJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoompaBoompa</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChocoMinchoMintChocoChokyJoris</key>
 										<value>1</value>
 									</li>
 									

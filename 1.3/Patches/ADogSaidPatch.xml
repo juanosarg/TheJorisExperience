@@ -54,6 +54,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<!-- Organ installing recipes == should be most animals -->
@@ -105,6 +107,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -155,6 +159,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -205,6 +211,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -255,6 +263,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -305,6 +315,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -355,6 +367,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -404,6 +418,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -454,6 +470,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -504,6 +522,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -554,6 +574,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -603,6 +625,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<!-- Leg installing recipes == should be most animals -->
@@ -653,6 +677,8 @@
 						<li>JECom_VoidJoris</li>
 						<li>JE_JoskarBontocki</li>
 						<li>JE_NoitaJoris</li>
+						<li>JE_JoompaBoompa</li>
+						<li>JE_ChocoMinchoMintChocoChokyJoris</li>
 					</value>
 				</li>
 				<!-- Tail installing recipe == Only for animal with tail-->
