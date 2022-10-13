@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_JE_AnimeMascotJoris</li>
+						<li>Corpse_JE_BeefeaterJoris</li>
+						<li>Corpse_JE_BiblicallyAccurateJoris</li>
+						<li>Corpse_JE_ChiefOBonson</li>
+						<li>Corpse_JE_DracoJoris</li>
+						<li>Corpse_JE_EmoJoris</li>
+						<li>Corpse_JE_FatJorry</li>
+						<li>Corpse_JE_JagothGrr</li>
+						<li>Corpse_JE_JockExcellente</li>
+						<li>Corpse_JE_Joku</li>
+						<li>Corpse_JE_JoneralGrievous</li>
+						<li>Corpse_JE_JonerysBonbearean</li>
+						<li>Corpse_JE_JonicTheHedgehog</li>
+						<li>Corpse_JE_JoobyDoo</li>
+						<li>Corpse_JE_JoraltOfRivia</li>
+						<li>Corpse_JE_JordonFreeman</li>
+						<li>Corpse_JE_JorisWhatLivesInASociety</li>
+						<li>Corpse_JE_Joromir</li>
+						<li>Corpse_JE_JorrickLorge</li>
+						<li>Corpse_JE_Joruto</li>
+						<li>Corpse_JE_JovidBowie</li>
+						<li>Corpse_JE_PerfectlyNormalJoris</li>
+						<li>Corpse_JE_QueenJorisTheSecond</li>
+						<li>Corpse_JE_SpongejorisSquarebonson</li>
+						<li>Corpse_JE_YugiJohris</li>
+						<li>Corpse_JE_ZombieJoris</li>
+						<li>Corpse_JECom_BlockJoris</li>
+						<li>Corpse_JECom_Cerberjoris</li>
+						<li>Corpse_JE_ChainsawJoris</li>
+						<li>Corpse_JECom_ColonistJoris</li>
+						<li>Corpse_JECom_FamousDevilJoris</li>
+						<li>Corpse_JECom_IsaacJoris</li>
+						<li>Corpse_JECom_JJorisJameson</li>
+						<li>Corpse_JECom_JorisAstley</li>
+						<li>Corpse_JECom_JorisSiroj</li>
+						<li>Corpse_JECom_JorisThePooh</li>
+						<li>Corpse_JECom_PickleJoris</li>
+						<li>Corpse_JECom_RoundJoris</li>
+						<li>Corpse_JECom_SuperJoris</li>
+						<li>Corpse_JE_FourLeggedUniJoris</li>
+						<li>Corpse_JE_XorismorphQueen</li>
+						<li>Corpse_JECom_VoidJoris</li>
+						<li>Corpse_JE_JoskarBontocki</li>
+						<li>Corpse_JE_NoitaJoris</li>
+						<li>Corpse_JE_JoompaBoompa</li>
+						<li>Corpse_JE_ChocoMinchoMintChocoChokyJoris</li>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_JE_AnimeMascotJoris</li>
+						<li>Corpse_JE_BeefeaterJoris</li>
+						<li>Corpse_JE_BiblicallyAccurateJoris</li>
+						<li>Corpse_JE_ChiefOBonson</li>
+						<li>Corpse_JE_DracoJoris</li>
+						<li>Corpse_JE_EmoJoris</li>
+						<li>Corpse_JE_FatJorry</li>
+						<li>Corpse_JE_JagothGrr</li>
+						<li>Corpse_JE_JockExcellente</li>
+						<li>Corpse_JE_Joku</li>
+						<li>Corpse_JE_JoneralGrievous</li>
+						<li>Corpse_JE_JonerysBonbearean</li>
+						<li>Corpse_JE_JonicTheHedgehog</li>
+						<li>Corpse_JE_JoobyDoo</li>
+						<li>Corpse_JE_JoraltOfRivia</li>
+						<li>Corpse_JE_JordonFreeman</li>
+						<li>Corpse_JE_JorisWhatLivesInASociety</li>
+						<li>Corpse_JE_Joromir</li>
+						<li>Corpse_JE_JorrickLorge</li>
+						<li>Corpse_JE_Joruto</li>
+						<li>Corpse_JE_JovidBowie</li>
+						<li>Corpse_JE_PerfectlyNormalJoris</li>
+						<li>Corpse_JE_QueenJorisTheSecond</li>
+						<li>Corpse_JE_SpongejorisSquarebonson</li>
+						<li>Corpse_JE_YugiJohris</li>
+						<li>Corpse_JE_ZombieJoris</li>
+						<li>Corpse_JECom_BlockJoris</li>
+						<li>Corpse_JECom_Cerberjoris</li>
+						<li>Corpse_JE_ChainsawJoris</li>
+						<li>Corpse_JECom_ColonistJoris</li>
+						<li>Corpse_JECom_FamousDevilJoris</li>
+						<li>Corpse_JECom_IsaacJoris</li>
+						<li>Corpse_JECom_JJorisJameson</li>
+						<li>Corpse_JECom_JorisAstley</li>
+						<li>Corpse_JECom_JorisSiroj</li>
+						<li>Corpse_JECom_JorisThePooh</li>
+						<li>Corpse_JECom_PickleJoris</li>
+						<li>Corpse_JECom_RoundJoris</li>
+						<li>Corpse_JECom_SuperJoris</li>
+						<li>Corpse_JE_FourLeggedUniJoris</li>
+						<li>Corpse_JE_XorismorphQueen</li>
+						<li>Corpse_JECom_VoidJoris</li>
+						<li>Corpse_JE_JoskarBontocki</li>
+						<li>Corpse_JE_NoitaJoris</li>
+						<li>Corpse_JE_JoompaBoompa</li>
+						<li>Corpse_JE_ChocoMinchoMintChocoChokyJoris</li>
+					</value>
+				</li>	
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsUrsineJoris</defName>
+							<tier>1</tier>
+							<itemProduced>GR_UrsineGenetic</itemProduced>
+							<extractableAnimals>
+								<li>JE_AnimeMascotJoris</li>
+								<li>JE_BeefeaterJoris</li>
+								<li>JE_BiblicallyAccurateJoris</li>
+								<li>JE_ChiefOBonson</li>
+								<li>JE_DracoJoris</li>
+								<li>JE_EmoJoris</li>
+								<li>JE_FatJorry</li>
+								<li>JE_JagothGrr</li>
+								<li>JE_JockExcellente</li>
+								<li>JE_Joku</li>
+								<li>JE_JoneralGrievous</li>
+								<li>JE_JonerysBonbearean</li>
+								<li>JE_JonicTheHedgehog</li>
+								<li>JE_JoobyDoo</li>
+								<li>JE_JoraltOfRivia</li>
+								<li>JE_JordonFreeman</li>
+								<li>JE_JorisWhatLivesInASociety</li>
+								<li>JE_Joromir</li>
+								<li>JE_JorrickLorge</li>
+								<li>JE_Joruto</li>
+								<li>JE_JovidBowie</li>
+								<li>JE_PerfectlyNormalJoris</li>
+								<li>JE_QueenJorisTheSecond</li>
+								<li>JE_SpongejorisSquarebonson</li>
+								<li>JE_YugiJohris</li>
+								<li>JE_ZombieJoris</li>
+								<li>JECom_BlockJoris</li>
+								<li>JECom_Cerberjoris</li>
+								<li>JE_ChainsawJoris</li>
+								<li>JECom_ColonistJoris</li>
+								<li>JECom_FamousDevilJoris</li>
+								<li>JECom_IsaacJoris</li>
+								<li>JECom_JJorisJameson</li>
+								<li>JECom_JorisAstley</li>
+								<li>JECom_JorisSiroj</li>
+								<li>JECom_JorisThePooh</li>
+								<li>JECom_PickleJoris</li>
+								<li>JECom_RoundJoris</li>
+								<li>JECom_SuperJoris</li>
+								<li>JE_FourLeggedUniJoris</li>
+								<li>JE_XorismorphQueen</li>
+								<li>JECom_VoidJoris</li>
+								<li>JE_JoskarBontocki</li>
+								<li>JE_NoitaJoris</li>
+								<li>JE_JoompaBoompa</li>
+								<li>JE_ChocoMinchoMintChocoChokyJoris</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

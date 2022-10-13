@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <!--=====================================================================-->
+  <!--=============================== Wool ================================-->
+  <!--=====================================================================-->
+
+
+  <ThingDef ParentName="WoolBase">
+    <defName>JE_JorisHair</defName>
+    <label>joris hair</label>
+    <description>Luscious black interwoven hairs that act like wool. Offers more protection that regular wool.</description>
+    <graphicData>
+      <color>(50,54,55)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(50,54,55)</color>
+    </stuffProps>
+  </ThingDef>
+
+  
+  
+</Defs>
