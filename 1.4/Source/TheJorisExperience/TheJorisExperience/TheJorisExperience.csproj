@@ -295,8 +295,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Defs\JorisToggleableSpawnDef.cs" />
+    <Compile Include="Harmony\MapTemperature_SeasonAcceptableFor_Patch.cs" />
     <Compile Include="Harmony\TrainableUtility_TamenessCanDecay.cs" />
-    <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Hediffs\Hediff_BleedingWound.cs" />
     <Compile Include="Incidents\IncidentWorker_JorisResourcePodCrash.cs" />
     <Compile Include="Incidents\ThingSetMaker_JorisResourcePod.cs" />
