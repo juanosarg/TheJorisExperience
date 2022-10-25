@@ -12,7 +12,7 @@
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.004</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
-
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -44,6 +44,8 @@
 			<li>
 				<hediff>JE_BleedingWound</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 
 			</li>
 		</additionalHediffs>
