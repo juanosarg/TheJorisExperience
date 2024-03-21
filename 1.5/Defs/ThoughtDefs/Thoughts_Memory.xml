@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<ThoughtDef>	
+		<defName>JE_LookAtTheMuscles</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>look at the muscles on you</label>
+				<description>This proves vampires can be sexy without sparkling.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>			
+	</ThoughtDef>
+	
+	<ThoughtDef>	
+		<defName>JE_WaifuThought</defName>
+		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+		<hediff>JE_WaifuThought</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>my waifu is nearby</label>
+				<description>Such a sexy beast, she must be mine.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>			
+	</ThoughtDef>
+
+	
+
+
+
+
+</Defs>

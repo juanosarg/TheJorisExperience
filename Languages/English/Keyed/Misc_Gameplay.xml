@@ -27,7 +27,10 @@
 	<JE_DisableAnimal>Disable {0}</JE_DisableAnimal>
 	<JE_AllowBiblicallyAccurateJoris>Allow Biblically Accurate Joris event</JE_AllowBiblicallyAccurateJoris>
 	
-	
+	<JE_JorisSpawnMultiplier>Joris spawn commonality multiplier</JE_JorisSpawnMultiplier>
+	<JE_JorisSpawnMultiplierTooltip>This multiplier will affect the spawn changes (commonalities) of ALL animals in this mod. For example, if set to 0.5 animals from the mod will spawn half as much as default (which is 1). If set to 2, you'll get twice as many as default, and so on. This only affects wild spawns.</JE_JorisSpawnMultiplierTooltip>
+	<JE_Reset>Reset</JE_Reset>
+	<JE_AnimalsSearch>Search:</JE_AnimalsSearch>
 
 
 

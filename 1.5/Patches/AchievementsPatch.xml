@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>JE_Achievements</defName>
+							<label>The Joris Experience</label>
+						</AchievementsExpanded.AchievementTabDef>
+						<AchievementsExpanded.AchievementDef Name="JE_AchievementParent" Abstract="true">
+							<bgtexPath>Achievements/JE_AchievementBackground</bgtexPath>
+							<tab>JE_Achievements</tab>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_TraditionalMedicine</defName>
+							<label>Traditional Medicine</label>
+							<description>Acquire a golden Uni Joris horn that cures all diseases (it doesn't)</description>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>JE_GoldenUniJorisHorn</def>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/JE_TraditionalMedicine</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_AchievementGoingVegan</defName>
+							<label>Going Vegan... Joris Edition</label>
+							<description>Acquire 200 pieces of Pickle Joris Meat</description>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>JE_PickleJorisMeat</def>
+								<count>200</count>
+							</tracker>
+							<texPath>Achievements/JE_AchievementGoingVegan</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_GameOverMan</defName>
+							<label>Game Over Man, Game Over!</label>
+							<description>Kill a Xorismorph Queen</description>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<kindDef>JE_XorismorphQueen</kindDef>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/JE_GameOverMan</texPath>
+							<points>50</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_CringiestEdgelord</defName>
+							<label>Cringiest Edgelord</label>
+							<description>Kill a Void Joris</description>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<kindDef>JECom_VoidJoris</kindDef>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/JE_CringiestEdgelord</texPath>
+							<points>35</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_BiblicallyAccurate</defName>
+							<label>Biblically Accurate</label>
+							<description>Tame a Biblically Accurate Joris</description>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>JE_BiblicallyAccurateJoris</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+							</tracker>
+							<texPath>Achievements/JE_BiblicallyAccurate</texPath>
+							<points>40</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_sHeSmAhQuEeN</defName>
+							<label>sHe'S mAh QuEeN</label>
+							<description>Have a Jonerys Bonbearean create 5 Draconic Joris and have them tamed</description>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>JE_DracoJoris</key>
+										<value>5</value>
+									</li>
+								</kindDefs>
+							</tracker>
+							<texPath>Achievements/JE_sHeSmAhQuEeN</texPath>
+							<points>20</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_NotAPhaseMom</defName>
+							<label>It's not a Phase, Mon</label>
+							<description>Craft any item out of Emo Joris Hair.</description>
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<madeFrom>JE_JorisHair</madeFrom>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/JE_NotAPhaseMom</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_PerfectlyNormal</defName>
+							<label>Perfectly Normal Man</label>
+							<description>Tame any Joris (except Biblically Accurate)</description>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>JECom_VoidJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_XorismorphQueen</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_BlockJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_Cerberjoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_EmoJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_DracoJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChiefOBonson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChainsawJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_BeefeaterJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_AnimeMascotJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_SuperJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_RoundJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_PickleJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisThePooh</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisSiroj</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisAstley</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JJorisJameson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_IsaacJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_FamousDevilJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_ColonistJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_FatJorry</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_FourLeggedUniJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JagothGrr</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JockExcellente</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joku</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoneralGrievous</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JonerysBonbearean</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JonicTheHedgehog</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoobyDoo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoraltOfRivia</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JordonFreeman</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JorisWhatLivesInASociety</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joromir</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JorrickLorge</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joruto</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JovidBowie</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_PerfectlyNormalJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_QueenJorisTheSecond</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_SpongejorisSquarebonson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_YugiJohris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ZombieJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoskarBontocki</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_NoitaJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoompaBoompa</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChocoMinchoMintChocoChokyJoris</key>
+										<value>1</value>
+									</li>
+									
+								</kindDefs>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/JE_PerfectlyNormal</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="JE_AchievementParent">
+							<defName>JE_TheJorisExperience</defName>
+							<label>The Joris Experience</label>
+							<description>Tame ALL the Jorises (except Xorismorph Queen, Void and Biblical)</description>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>JECom_BlockJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_Cerberjoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_EmoJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_DracoJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChiefOBonson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChainsawJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_BeefeaterJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_AnimeMascotJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_SuperJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_RoundJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_PickleJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisThePooh</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisSiroj</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JorisAstley</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_JJorisJameson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_IsaacJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_FamousDevilJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JECom_ColonistJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_FatJorry</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_FourLeggedUniJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JagothGrr</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JockExcellente</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joku</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoneralGrievous</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JonerysBonbearean</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JonicTheHedgehog</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoobyDoo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoraltOfRivia</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JordonFreeman</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JorisWhatLivesInASociety</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joromir</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JorrickLorge</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_Joruto</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JovidBowie</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_PerfectlyNormalJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_QueenJorisTheSecond</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_SpongejorisSquarebonson</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_YugiJohris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ZombieJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoskarBontocki</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_NoitaJoris</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_JoompaBoompa</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>JE_ChocoMinchoMintChocoChokyJoris</key>
+										<value>1</value>
+									</li>
+									
+								</kindDefs>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/JE_TheJorisExperience</texPath>
+							<points>200</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.Reward_MapIncident>
+							<defName>JE_ResourcePodCrash</defName>
+							<label>Spawn Joris Experience Cargo Pods</label>
+							<cost>25</cost>
+							<incident>JE_ResourcePodCrash</incident>
+						</AchievementsExpanded.Reward_MapIncident>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

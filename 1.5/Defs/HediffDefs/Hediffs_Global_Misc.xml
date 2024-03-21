@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>JE_NoPainLowRest</defName>
+		<description>This monster has a reduced pain sensitivity, and it takes longer to be downed due to pain. It also needs very little sleep.</description>
+		<label>no pain sensitivity</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<restFallFactor>0.1</restFallFactor>
+				<painFactor>0.01</painFactor>
+				<statOffsets>
+					<PainShockThreshold>1</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>JE_Alcohol</defName>
+		<label>alcohol</label>
+		<labelNoun>drunkenness</labelNoun>
+		<description>Alcohol in the bloodstream. It makes people happy, but reduces capacities.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Drunk</stateEffecter>
+				<severityIndices>3~5</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>drunk</label>
+				<painFactor>0.5</painFactor>
+				<socialFightChanceFactor>4.0</socialFightChanceFactor>
+				<vomitMtbDays>0.75</vomitMtbDays>
+				<tale>Drunk</tale>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.85</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>JE_TorsoMinigun</defName>
+		<label>mounted minigun</label>
+		<labelNoun>a mounted minigun</labelNoun>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>A minigun mounted to the torso.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+				<verbs>
+					<li>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>1</accuracyTouch>
+						<accuracyShort>1</accuracyShort>
+						<accuracyMedium>1</accuracyMedium>
+						<accuracyLong>.75</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>JE_Bullet_GoldenShower</defaultProjectile>
+						<warmupTime>4</warmupTime>
+						<burstShotCount>20</burstShotCount>
+						<minRange>1</minRange>
+						<range>35.5</range>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>0</muzzleFlashScale>
+						<label>Fat Jorry's Golden Shower</label>
+						<commonality>.8</commonality>
+						<commandIcon>Things/Weapons/GoldenShower</commandIcon>
+					</li>
+				</verbs>
+				<verbProps>
+					<li>
+						<label>Fat Jorry's Golden Shower</label>
+						<canBeToggled>true</canBeToggled>
+						<comps>
+							<li Class="MVCF.VerbComps.VerbCompProperties_Turret">
+								<compClass>MVCF.VerbComps.VerbComp_Turret</compClass>
+								<graphic>
+									<texPath>Things/Weapons/GoldenShower</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+								</graphic>
+							</li>
+						</comps>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li/>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>JE_BleedingWound</defName>
+		<hediffClass>TheJorisExperience.Hediff_BleedingWound</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<description>A bleeding wound that continues to cause blood loss for quite some time after the initial attack.</description>
+		<label>bleeding wounds</label>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-4</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>bleeding wounds, minor</label>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>bleeding wounds, moderate</label>
+				<minSeverity>0.40</minSeverity>
+				<vomitMtbDays>5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>bleeding wounds, serious</label>
+				<minSeverity>0.60</minSeverity>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef ParentName="InjuryBase">
+		<defName>JE_OpenWound</defName>
+		<label>open wound</label>
+		<description>An open wound.</description>
+		<labelNoun>an open wound</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>sutured</labelTendedWellInner>
+				<labelSolidTendedWell>set</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.15</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>stab scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<bleedRate>0.06</bleedRate>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	<HediffDef>
+		<defName>JE_WaifuThought</defName>
+		<label>waifu power</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A waifu Joris polar bear is nearby, empowering this poor dweeb to go beyond the call of duty. It increases manipulation and moving stats for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>JE_WaifuThought</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef ParentName="InjuryBase">
+		<defName>JE_PermanentBurn</defName>
+		<label>permanent burn</label>
+		<description>A permanent burn scar that cannot be treated.</description>
+		<labelNoun>a permanent burn</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.30</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>permanent burn</permanentLabel>
+				<becomePermanentChanceFactor>100</becomePermanentChanceFactor>
+			</li>
+			<li Class="AnimalBehaviours.HediffCompProperties_AutoPermanentInjury">
+        
+      </li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.10</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.05</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+</Defs>
