@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-	<ThingSetMakerDef>
-		<defName>JE_JorisResourcePod</defName>
-		<root Class="TheJorisExperience.ThingSetMaker_JorisResourcePod"/>
-	</ThingSetMakerDef>
-</Defs>

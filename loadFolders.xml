@@ -1,0 +1,23 @@
+<loadFolders>
+	
+
+	
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		
+		
+		
+		
+	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		
+		
+		<li IfModActive="vanillaexpanded.achievements">1.6/Mods/Achievements</li>	
+	
+	</v1.6>
+</loadFolders>
+
+
